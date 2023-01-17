@@ -1,12 +1,8 @@
-﻿<Window x:Class="IliadWidget.MainWindow"
+﻿<Window x:Name="Iliad" x:Class="IliadWidget.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IliadWidget"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
-</Window>
+        Title="Iliad" Height="55" Width="260" ResizeMode="NoResize" ShowInTaskbar="True" Cursor="Arrow" WindowStyle="None" Topmost="True" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Maximized"/>
